@@ -1,6 +1,5 @@
 .header {
     width: 100%;
-    /* background-color: white;*/
 }
 
 .button {
@@ -84,6 +83,7 @@
 
 .title {
     height: 600px;
+    width: 100%;
 }
 
 #images {
@@ -157,6 +157,7 @@
 }
 
 .container1 p {
+    width: 100%;
     color: black;
     font-family: "Plus Jakarta Display";
     font-size: 60px;
@@ -230,6 +231,8 @@
     width: auto;
     display: flex;
     padding-bottom: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .col1 {
@@ -238,6 +241,7 @@
 
 .col6 {
     padding-left: 0px;
+    padding-right: 0px;
 }
 
 .col5 {
@@ -383,8 +387,10 @@
 }
 
 .container-fluid {
-    background: #005142;
+    background-color: #005142;
     margin-top: 70px;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .polygon {

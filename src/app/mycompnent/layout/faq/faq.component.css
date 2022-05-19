@@ -1,0 +1,69 @@
+.container-fluid {
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.images {
+    position: absolute;
+    z-index: 0;
+}
+
+.img1 {
+    position: absolute;
+    margin-left: 1000.4864501953125px;
+    border-radius: 0px;
+    transform: matrix(0.78, 0.62, 0.62, -0.78, 0, 0);
+    overflow: hidden;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-left: 1100.4864501953125px;
+    border-radius: 0px;
+    height: 500px;
+    width: 500px
+}
+
+.container {
+    z-index: 1;
+    width: 60%;
+}
+
+.container h1 {
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 38px;
+    font-family: "Plus Jakarta Display";
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+}
+
+.mat-expansion-panel-header-title {
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.mat-expansion-panel {
+    margin-bottom: 32px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.mat-expansion-panel-header-title img {
+    padding-right: 32px;
+    margin-left: 32px;
+}
+
+.mat-expansion-panel p {
+    font-family: "Plus Jakarta Sans";
+    padding-left: 96px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}

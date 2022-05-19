@@ -1,0 +1,46 @@
+.container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+}
+
+.image {
+    height: 58.51293182373047px;
+    width: 138.81658935546875px;
+}
+
+.container p {
+    padding-top: 45px;
+    padding-bottom: 59px;
+    color: white;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+
+.footer-btn {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.btn1 {
+    background-color: black;
+    border: none;
+    color: white;
+    margin-right: 30px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.btn2 {
+    float: right;
+    background-color: black;
+    border: none;
+    margin-right: 15px;
+}

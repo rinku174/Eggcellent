@@ -1,0 +1,444 @@
+.header {
+    width: 100%;
+    /* background-color: white;*/
+}
+
+.button {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height: 50px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.header img {
+    height: 80px;
+    width: 221px;
+    margin-top: 26px;
+    margin-left: 110px;
+}
+
+.button1 {
+    font-family: " Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #F8E1C8;
+    color: black;
+    float: right;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.button2 {
+    background: #FA8B40;
+    color: black;
+    font-weight: bold;
+    float: right;
+    height: 64px;
+    width: 172px;
+    margin-right: 113px;
+    margin-top: 26px;
+    border-radius: 0px;
+    padding: 16px, 20px, 16px, 20px;
+    background-image: linear-gradient(to top, black 50%, #FA8B40 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: all 0.1s;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: translate(0, 0px);
+    }
+    30% {
+        transform: translate(0, 10px);
+    }
+    50% {
+        transform: translate(10px, 0px);
+    }
+    65% {
+        transform: translate(0, -10px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.button2:hover {
+    background-position: 0% 100%;
+    cursor: pointer;
+    color: white;
+    animation-name: buttonAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.title {
+    height: 600px;
+}
+
+#images {
+    position: absolute;
+    z-index: 0;
+}
+
+.container1 {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    height: 392px;
+    width: 883px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.img1 {
+    height: 194px;
+    width: 255px;
+    position: absolute;
+    animation-name: eggAnimation;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.img2 {
+    height: 326.1861000435483px;
+    width: 353.39038503279005px;
+    margin-left: 365.038330078125px;
+    margin-top: 123px;
+    border-radius: 0px;
+    position: absolute;
+    transform: rotate(9.89deg);
+}
+
+.img3 {
+    position: absolute;
+    height: 204.75651569511385px;
+    width: 168.07424021330158px;
+    border-radius: 0px;
+    margin-top: 100px;
+    margin-left: 920px;
+    z-index: 2;
+}
+
+.img4 {
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 300px;
+    height: 189px;
+    width: 251px;
+}
+
+.img5 {
+    position: absolute;
+    margin-left: -260.24px;
+    transform: rotate(4.46deg);
+    border-radius: 55px;
+    overflow: hidden;
+    height: 500.9999965954956px;
+    width: 500.9999965954956px;
+    margin-top: 300px;
+}
+
+.container {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.container1 p {
+    color: black;
+    font-family: "Plus Jakarta Display";
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.button3:hover {
+    animation-name: buttonAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.button3 {
+    background-color: #f8d7b8;
+    height: 10px;
+}
+
+.button3 img {
+    height: 170px;
+}
+
+.col4 {
+    justify-content: center;
+    padding-top: 60px;
+    flex: 1;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col3 {
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex: 1;
+    padding-bottom: 8px;
+}
+
+.col3 img {
+    padding-top: 0px;
+}
+
+.col4 p {
+    padding-top: 0px;
+    text-align: start;
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-weight: 400 bold;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col4 h6 {
+    color: black;
+    font-family: " Plus Jakarta Sans";
+    font-size: 20px;
+    font: weight 600 bold;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.row {
+    width: auto;
+    display: flex;
+    padding-bottom: 0px;
+}
+
+.col1 {
+    padding-right: 0px;
+}
+
+.col6 {
+    padding-left: 0px;
+}
+
+.col5 {
+    padding-right: 0px;
+}
+
+.col2 {
+    padding-left: 0px;
+}
+
+.col2 h1 {
+    padding-top: 30px;
+    color: black;
+    padding-right: 100px;
+    padding-left: 39px;
+    font-family: "Plus Jakarta Display";
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+}
+
+.col2 p {
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    padding-right: 100px;
+    padding-left: 39px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.button4 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    background-image: linear-gradient(to top, #FA8B40 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: all 0.1s;
+}
+
+.button4:hover {
+    background-position: 0% 100%;
+    color: black;
+    animation-name: buttonAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.a1 {
+    padding-left: 39px;
+}
+
+.col5 h1 {
+    padding-top: 50px;
+    color: black;
+    padding-right: 39px;
+    padding-left: 108px;
+    font-family: "Plus Jakarta Display";
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+}
+
+.col5 p {
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 143px;
+    padding-right: 39px;
+    padding-left: 108px;
+    font-family: " Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.a2 {
+    padding-left: 108px;
+}
+
+.button5 {
+    margin-top: 200px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #FA8B40 50%, black 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: all 0.1s;
+}
+
+.button5:hover {
+    background-position: 0% 100%;
+    cursor: pointer;
+    color: white;
+    animation-name: buttonAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.col1 img {
+    width: 100%;
+    height: 720px;
+}
+
+.col6 img {
+    width: 100%;
+    height: 720px;
+}
+
+.container-fluid {
+    background: #005142;
+    margin-top: 70px;
+}
+
+.polygon {
+    position: absolute;
+    z-index: 0;
+}
+
+.img6 {
+    position: absolute;
+    height: 687.9999835876392px;
+    width: 687.9999835876392px;
+    margin-left: 1035px;
+    border-radius: 80px;
+    overflow: hidden;
+    padding-bottom: 300px;
+}
+
+.img7 {
+    position: absolute;
+    height: 687.9999835876392px;
+    width: 687.9999835876392px;
+    margin-left: -296px;
+    border-radius: 80px;
+    overflow: hidden;
+    padding-top: 200px
+}
+
+.container {
+    z-index: 1;
+    margin-top: 80px;
+    text-align: center;
+    align-self: center;
+}
+
+.container img {
+    padding-top: 46px;
+}
+
+.container h1 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    padding-top: 70px;
+}
+
+.container h4 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    padding-left: 22px;
+    padding-bottom: 60px;
+}

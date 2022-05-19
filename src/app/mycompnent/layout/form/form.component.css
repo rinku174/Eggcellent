@@ -1,0 +1,150 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.images {
+    position: absolute;
+    z-index: 0;
+}
+
+.img1 {
+    height: 700.215668165837px;
+    width: 800.5212063785641px;
+    margin-left: -467.80887603759766px;
+    overflow: hidden;
+    transform: rotate(-26.5deg);
+    margin-top: 380px;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.col2 img {
+    float: right;
+    padding-top: 90px;
+    height: 582.6211083014408px;
+    width: 475.08140254611754px;
+}
+
+.col1 h1 {
+    padding-bottom: 15px;
+    font-family: " Plus Jakarta Display";
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.col1 a {
+    text-decoration: none;
+}
+
+.dropdown {
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.fname {
+    float: left;
+    border-color: black;
+}
+
+.lname {
+    float: right;
+    padding-left: 15px;
+    border-color: black;
+}
+
+.form-control {
+    border-color: black;
+    margin-bottom: 20px;
+}
+
+.form-check-input {
+    border-color: black;
+}
+
+.form-group label {
+    padding-bottom: 8px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.form-label {
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+.form-check p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.btn {
+    font-family: "Times New Roman";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    background: #FF7A20;
+    border: none;
+    color: black;
+    height: 64px;
+    justify-content: center;
+    background-image: linear-gradient(to top, black 50%, #FA8B40 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: all 0.1s;
+}
+
+.btn:hover {
+    background-position: 0% 100%;
+    color: white;
+    animation-name: buttonAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: translate(0, 0px);
+    }
+    30% {
+        transform: translate(0, 10px);
+    }
+    50% {
+        transform: translate(10px, 0px);
+    }
+    65% {
+        transform: translate(0, -10px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
